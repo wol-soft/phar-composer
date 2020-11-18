@@ -1,5 +1,5 @@
 {
-    "name": "clue/phar-composer",
+    "name": "wol-soft/phar-composer",
     "description": "Simple phar creation for any project managed via Composer",
     "keywords": ["executable phar", "build process", "bundle dependencies", "phar", "composer"],
     "homepage": "https://github.com/clue/phar-composer",
