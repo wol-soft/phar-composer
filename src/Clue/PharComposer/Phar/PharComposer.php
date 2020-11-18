@@ -125,6 +125,7 @@ class PharComposer
         if (is_file($pathVendor . 'composer/installed.json')) {
             // file does not exist if there's nothing to be installed
             $installed = $this->loadJson($pathVendor . 'composer/installed.json');
+            $installed = empty($installed['packages']) ? $installed : $installed['packages'];
 
             foreach ($installed as $package) {
                 $dir = $package['name'] . '/';
